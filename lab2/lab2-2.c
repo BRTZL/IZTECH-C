@@ -1,48 +1,7 @@
-/*
 #include <stdio.h>
-
-int main(){
-    char x[20];
-    scanf("%s",x);
-    printf("%s",x);
-}
-*/
-
-/*
-#include <stdio.h>
-#define IN 1  // inside a word
-#define OUT 0 // outside a word
-
-// count lines, words, and characters in input*1 maine
-
-int main()
-{
-    int c, nl, nw, nc, state;
-    state = OUT;
-    nl = nw = nc = 0;
-    while ((c = getchar()) != EOF)
-    {
-        ++nc;
-        if (c == '\n')
-            ++nl;
-        if (c == ' ' || c == '\n' || c == '\t')
-            state = OUT;
-        else if (state == OUT)
-        {
-            state = IN;
-            ++nw;
-        }
-    }
-    printf("%d %d %d\n", nl, nw, nc);
-}
-*/
-
-#include <stdio.h>
-#define MAXLINE 1000 //1* maximum input line size *1
+#define MAXLINE 1000
 int getline(char line[], int maxline);
 void copy(char to[], char from[]);
-
-//1* print longest input line *1
 
 int main()
 {

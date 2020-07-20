@@ -21,9 +21,6 @@ int main()
     float n, m;
     float min, max;
 
-    // for (int i = 0x00; i <= 0x4FF; i++)
-    //     wprintf(L"%lc ", i);
-
     printf("\nEnter m and n values as m(space)n : ");
     scanf("%f %f", &m, &n);
 
